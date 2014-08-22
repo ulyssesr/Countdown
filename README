@@ -1,0 +1,10 @@
+Countdown is a WordPress plugin that displays a countdown timer.
+Javascript is written by Robert Hashemian. The WordPress code is mine.
+
+Usage:
+
+Place the code above inside your WordPress post or page.
+[countdown event="Sunday 10:00am"]
+
+For templates, use this code:
+echo do_shortcode('[countdown event="Saturday 11am"]');
