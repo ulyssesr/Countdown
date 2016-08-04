@@ -27,7 +27,7 @@ echo do_shortcode('[countdown event="Saturday 11am"]');
 // Add Javascript to header which in turn loads another called countdown.js
 
 function show_countdown_timer($atts) {
-	extract( shortcode_atts( array('event' => 'Saturday 11:00'), $atts ) );
+	extract( shortcode_atts( array('event' => 'August 29, 2016 4:15pm'), $atts ) );
 
 	// set default timezone
 	date_default_timezone_set('America/Los_Angeles');
